@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/cafesFragment">
+
+    <fragment
+        android:id="@+id/cafesFragment"
+        android:name="com.example.cafdam.cafesFragment"
+        android:label="cafesFragment"
+        tools:layout="@layout/fragment_cafes">
+        <action
+            android:id="@+id/action_cafesFragment_to_primerFragment2"
+            app:destination="@id/primerFragment2"
+            app:popUpTo="@id/cafesFragment"
+            app:popUpToInclusive="false" />
+    </fragment>
+    <fragment
+        android:id="@+id/primerFragment2"
+        android:name="com.example.cafdam.primerFragment"
+        android:label="primerFragment"
+        tools:layout="@layout/fragment_primer"
+        >
+        <action
+            android:id="@+id/action_primerFragment2_to_segonFragment"
+            app:destination="@id/segonFragment"
+            app:popUpTo="@id/cafesFragment"
+            app:popUpToInclusive="false" />
+    </fragment>
+    <fragment
+        android:id="@+id/segonFragment"
+        android:name="com.example.cafdam.segonFragment"
+        android:label="segonFragment"
+        tools:layout="@layout/fragment_segon">
+        <action
+            android:id="@+id/action_segonFragment_to_tercerFragment"
+            app:destination="@id/tercerFragment"
+            app:popUpTo="@id/cafesFragment"
+            app:popUpToInclusive="false" />
+    </fragment>
+    <fragment
+        android:id="@+id/tercerFragment"
+        android:name="com.example.cafdam.tercerFragment"
+        android:label="tercerFragment"
+        tools:layout="@layout/fragment_tercer">
+        <action
+            android:id="@+id/action_tercerFragment_to_carritoFragment"
+            app:destination="@id/carritoFragment"
+            app:popUpTo="@id/cafesFragment"
+            app:popUpToInclusive="false" />
+    </fragment>
+    <fragment
+        android:id="@+id/carritoFragment"
+        android:name="com.example.cafdam.carritoFragment"
+        android:label="carritoFragment"
+        tools:layout="@layout/fragment_carrito">
+        <action
+            android:id="@+id/action_carritoFragment_to_cafesFragment"
+            app:destination="@id/cafesFragment"
+            app:popUpTo="@id/cafesFragment"
+            app:popUpToInclusive="false" />
+    </fragment>
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.example.cafdam.aboutFragment"
+        android:label="aboutFragment"
+        tools:layout="@layout/fragment_about"/>
+
+</navigation>

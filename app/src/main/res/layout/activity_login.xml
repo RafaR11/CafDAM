@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".loginActivity">
+
+        <TextView
+            android:id="@+id/textBienvenido"
+            android:layout_width="287dp"
+            android:layout_height="55dp"
+            android:text="NUEVO CLIENTE"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="#755423"
+            android:textSize="33sp"
+            android:textStyle="normal|bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.078" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="60dp"
+            android:layout_height="58dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.175"
+            app:srcCompat="@drawable/nuevo" />
+
+        <TextView
+            android:id="@+id/textViewIniciar1"
+            android:layout_width="259dp"
+            android:layout_height="37dp"
+            android:text="Completa tus datos:"
+            android:textAlignment="viewStart"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.282" />
+
+        <EditText
+            android:id="@+id/editTextNom"
+            android:layout_width="254dp"
+            android:layout_height="46dp"
+            android:background="#9C9797"
+            android:backgroundTint="#CFC8BE"
+            android:ems="10"
+            android:hint="Nombre"
+            android:inputType="text"
+            android:paddingLeft="5dp"
+            android:textColor="#000000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.484"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.355" />
+
+        <EditText
+            android:id="@+id/editTextTextEmail2"
+            android:layout_width="254dp"
+            android:layout_height="46dp"
+            android:background="#9C9797"
+            android:backgroundTint="#CFC8BE"
+            android:ems="10"
+            android:hint="Correo electrónico"
+
+            android:inputType="textEmailAddress"
+            android:paddingLeft="5dp"
+            android:textColor="#000000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.484"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.603" />
+
+        <EditText
+            android:id="@+id/editTextPassR"
+            android:layout_width="254dp"
+            android:layout_height="46dp"
+            android:background="#9C9797"
+            android:backgroundTint="#CFC8BE"
+            android:ems="10"
+            android:hint="Contraseña"
+
+            android:inputType="textPassword"
+            android:paddingLeft="5dp"
+            android:textColor="#000000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.484"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.686" />
+
+        <EditText
+            android:id="@+id/editTextTextApellidos"
+            android:layout_width="254dp"
+            android:layout_height="46dp"
+            android:background="#CFC8BE"
+            android:ems="10"
+            android:hint="Apellidos"
+            android:inputType="text"
+            android:paddingLeft="5dp"
+            android:textColor="#000000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.484"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.437"
+            tools:ignore="SpeakableTextPresentCheck,TextContrastCheck" />
+
+        <EditText
+            android:id="@+id/editTextTextUsuari"
+            android:layout_width="254dp"
+            android:layout_height="46dp"
+            android:background="#CFC8BE"
+            android:ems="10"
+            android:hint="Usuario"
+            android:inputType="text"
+            android:paddingLeft="5dp"
+            android:textColor="#000000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.484"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.521"
+            tools:ignore="SpeakableTextPresentCheck,TextContrastCheck" />
+
+        <Button
+            android:id="@+id/buttonRegistrarse"
+            android:layout_width="253dp"
+            android:layout_height="52dp"
+            android:backgroundTint="#755423"
+            android:text="REGISTRARSE"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.518"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.821" />
+
+        <Button
+            android:id="@+id/buttonRegistrar"
+            android:layout_width="255dp"
+            android:layout_height="52dp"
+            android:backgroundTint="#FFFFFF"
+            android:text="VOLVER"
+            android:textColor="#755423"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.525"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.902"
+            app:strokeColor="#755423"
+            app:strokeWidth="2dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

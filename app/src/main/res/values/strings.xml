@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Cafeteria DAM</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="elige_tus_platos">Elige tus platos:</string>
+    <string name="elegir">ELEGIR</string>
+    <string name="men">MENÚ</string>
+    <string name="todo">TODO</string>
+    <string name="primer_plat">PRIMER PLAT</string>
+    <string name="siguiente">SIGUIENTE</string>
+    <string name="segon_plat">SEGON PLAT</string>
+    <string name="siguiente2">SIGUIENTE</string>
+    <string name="postre">POSTRE</string>
+    <string name="finalizar">FINALIZAR</string>
+    <string name="volver">volver</string>
+    <string name="carret">CARRET</string>
+    <string name="textview">TextView</string>
+    <string name="primer_plat1">- PRIMER PLAT</string>
+    <string name="segon_plat2">- SEGON PLAT</string>
+    <string name="postre3">TODO</string>
+    <string name="postre_3">- POSTRE</string>
+    <string name="about">ABOUT</string>
+    <string name="rafael">Rafael</string>
+    <string name="romero">Romero</string>
+    <string name="_2_dam">2 DAM</string>
+    <string-array name="platosPrimero">
+        <item>Primero1</item>
+        <item>Primero2</item>
+        <item>Primero3</item>
+        <item>Primero4</item>
+    </string-array>
+    <string-array name="platosSegundo">
+        <item>Segundo1</item>
+        <item>Segundo2</item>
+        <item>Segundo3</item>
+        <item>Segundo4</item>
+    </string-array>
+    <string-array name="platosPostre">
+        <item>Postre1</item>
+        <item>Postre2</item>
+        <item>Postre3</item>
+        <item>Postre4</item>
+    </string-array>
+</resources>
