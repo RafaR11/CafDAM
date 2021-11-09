@@ -14,7 +14,7 @@
             android:id="@+id/textView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/primer_plat"
+            android:text="@string/primer_plato"
             android:textColor="#876E23"
             android:textSize="34sp"
             app:layout_constraintBottom_toBottomOf="parent"

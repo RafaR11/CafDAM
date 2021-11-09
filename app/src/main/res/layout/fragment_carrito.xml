@@ -14,14 +14,16 @@
             android:id="@+id/carrito"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/carret"
+            android:text="@string/pedido"
             android:textColor="#876E23"
             android:textSize="34sp"
+            android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.169" />
+            app:layout_constraintVertical_bias="0.144" />
 
         <Button
             android:id="@+id/volver"
@@ -32,11 +34,9 @@
             android:textColor="#263238"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.777" />
-
+            app:layout_constraintVertical_bias="0.833" />
 
         <ImageView
             android:id="@+id/imageViewCarrito"
@@ -50,12 +50,12 @@
             app:layout_constraintHorizontal_bias="0.483"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.316" />
+            app:layout_constraintVertical_bias="0.257" />
 
         <TextView
             android:id="@+id/textViewPlat1"
             android:layout_width="148dp"
-            android:layout_height="32dp"
+            android:layout_height="50dp"
             android:text="@string/primer_plat1"
             android:textAlignment="center"
             android:textColor="#000000"
@@ -65,12 +65,12 @@
             app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.499" />
+            app:layout_constraintVertical_bias="0.483" />
 
         <TextView
             android:id="@+id/textViewPlat2"
             android:layout_width="148dp"
-            android:layout_height="32dp"
+            android:layout_height="50dp"
             android:text="@string/segon_plat2"
             android:textAlignment="center"
             android:textColor="#000000"
@@ -80,12 +80,12 @@
             app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.569" />
+            app:layout_constraintVertical_bias="0.615" />
 
         <TextView
             android:id="@+id/textViewPostre"
             android:layout_width="148dp"
-            android:layout_height="32dp"
+            android:layout_height="50dp"
             android:text="@string/postre_3"
             android:textAlignment="center"
             android:textColor="#000000"
@@ -95,7 +95,43 @@
             app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.639" />
+            app:layout_constraintVertical_bias="0.745" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="140dp"
+            android:layout_height="25dp"
+            android:text="Primer Plat:"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.483"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.42" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="140dp"
+            android:layout_height="25dp"
+            android:text="Segon Plat:"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.483"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.548" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="140dp"
+            android:layout_height="25dp"
+            android:text="Postre:"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.483"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.674" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

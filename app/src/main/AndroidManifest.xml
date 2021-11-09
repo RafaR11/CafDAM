@@ -9,9 +9,7 @@
         android:roundIcon="@drawable/logo"
         android:supportsRtl="true"
         android:theme="@style/Theme.CafDAM">
-        <activity
-            android:name=".LaunchScreen"
-            android:exported="false" />
+
         <activity
             android:name=".MenuActivity"
             android:exported="false" />
@@ -21,9 +19,11 @@
         <activity
             android:name=".MainActivity"
             android:exported="true">
+        </activity>
+        <activity android:name=".LaunchScreen" android:theme="@style/LaunchTheme"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>

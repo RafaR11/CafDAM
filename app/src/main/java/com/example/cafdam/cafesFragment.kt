@@ -2,6 +2,7 @@ package com.example.cafdam
 
 import android.os.Bundle
 import android.view.*
+import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.databinding.DataBindingUtil
 import androidx.navigation.findNavController
@@ -14,8 +15,9 @@ class cafesFragment : Fragment() {
                               savedInstanceState: Bundle?): View? {
         val binding = DataBindingUtil.inflate<FragmentCafesBinding>(inflater,
             R.layout.fragment_cafes,container,false)
+        (activity as AppCompatActivity).supportActionBar?.title = "Elige tus platos"
         binding.button.setOnClickListener{view : View ->
-            view.findNavController().navigate(R.id.action_cafesFragment_to_primerFragment2)
+            view.findNavController().navigate(cafesFragmentDirections.actionCafesFragmentToPrimerFragment2())
         }
         setHasOptionsMenu(true)
         return binding.root

@@ -22,22 +22,25 @@
     <string name="rafael">Rafael</string>
     <string name="romero">Romero</string>
     <string name="_2_dam">2 DAM</string>
+    <string name="primer_plato">PRIMER PLATO</string>
+    <string name="segundo_plato">SEGUNDO PLATO</string>
+    <string name="pedido">PEDIDO</string>
     <string-array name="platosPrimero">
-        <item>Primero1</item>
-        <item>Primero2</item>
-        <item>Primero3</item>
-        <item>Primero4</item>
+        <item>Macarrones</item>
+        <item>Ensalada de queso fresco con tomáte</item>
+        <item>Crema de calabacín</item>
+        <item>Mejillones a la marinera</item>
     </string-array>
     <string-array name="platosSegundo">
-        <item>Segundo1</item>
-        <item>Segundo2</item>
-        <item>Segundo3</item>
-        <item>Segundo4</item>
+        <item>Lomo adobado con pimientos</item>
+        <item>Salmón a la plancha</item>
+        <item>Hamburguesa de pollo</item>
+        <item>Bistec a la plancha</item>
     </string-array>
     <string-array name="platosPostre">
-        <item>Postre1</item>
-        <item>Postre2</item>
-        <item>Postre3</item>
-        <item>Postre4</item>
+        <item>Tarta de chocolate</item>
+        <item>Helado de vainilla</item>
+        <item>Brownie con helado de chocolate</item>
+        <item>Fruta del día</item>
     </string-array>
 </resources>
